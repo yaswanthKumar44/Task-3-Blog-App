@@ -1,4 +1,4 @@
-### Task 2: Advanced Features Implementation
+### Task 3: Advanced Features Implementation
 - **Objective**: Enhance the application with search, pagination, and UI improvements.
 - **Features**:
   - Search functionality to find posts by title or content.
