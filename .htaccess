@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /Internship-Tasks-for-Web-Development-PHP-MySQL/Task-3/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]

@@ -1,0 +1,40 @@
+body {
+    background-color: #f4f4f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.table {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.pagination .page-link {
+    border-radius: 5px;
+    margin: 0 2px;
+}
+
+.alert {
+    border-radius: 5px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
