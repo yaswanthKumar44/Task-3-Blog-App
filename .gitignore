@@ -1,0 +1,7 @@
+includes/config.php
+*.sql
+/xampp/
+*.log
+vendor/
+*.tmp
+*.cache
